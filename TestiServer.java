@@ -4,7 +4,6 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 
 
-
 public class TestiServer {
     private static DatagramSocket soketti = null;
 
@@ -30,8 +29,5 @@ public class TestiServer {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
-
-
     }
 }

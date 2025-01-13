@@ -4,6 +4,7 @@ import java.net.InetAddress;
 import java.net.SocketException;
 import java.net.SocketTimeoutException;
 
+
 public class RDTLayer3_0  extends VirtuaaliSoketti {
     private byte lastSeq;
     private byte lastSentSeq;
@@ -154,5 +155,4 @@ public class RDTLayer3_0  extends VirtuaaliSoketti {
             }
         }
     }
-    
 }

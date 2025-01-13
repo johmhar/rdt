@@ -6,14 +6,11 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 
-
-
 public class VirtuaaliSoketti extends DatagramSocket {
     
     private static double p_drop = 0.0;
     private static double p_delay = 0.0;
     private static double p_err = 0.0;
-    // private static int[] mask = {0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08};
 
     public VirtuaaliSoketti() throws SocketException {
         super();
@@ -59,5 +56,4 @@ public class VirtuaaliSoketti extends DatagramSocket {
             }
         }
     }
-
 }

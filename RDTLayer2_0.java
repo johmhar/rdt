@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.SocketException;
 
+
 public class RDTLayer2_0  extends VirtuaaliSoketti {
 
     public RDTLayer2_0() throws SocketException {
@@ -47,5 +48,4 @@ public class RDTLayer2_0  extends VirtuaaliSoketti {
             }
         }
     }
-    
 }

@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.SocketException;
 
+
 public class RDTLayer2_2  extends VirtuaaliSoketti {
     private byte lastSeq;
 
@@ -76,5 +77,4 @@ public class RDTLayer2_2  extends VirtuaaliSoketti {
             }
         }
     }
-    
 }
