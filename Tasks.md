@@ -28,6 +28,8 @@
 3. Reliable data transfer with only positive ACKs
    - RDTLayer2_2.java
 
+4. Reliable data transfer with only negative ACKs
+   - RDTLayer3_1.java
 
 
 ## Reliable Transport protocol

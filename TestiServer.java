@@ -13,7 +13,8 @@ public class TestiServer {
             // soketti = new VirtuaaliSoketti(6666);
             // soketti = new RDTLayer2_0(6666);
             // soketti = new RDTLayer2_2(6666);
-            soketti = new RDTLayer3_0(6666);
+            // soketti = new RDTLayer3_0(6666);
+            soketti = new RDTLayer3_1(6663);
             boolean listening = true;
              while(listening) {
                 byte[] rec = new byte[256];

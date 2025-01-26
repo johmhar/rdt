@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 public class TestClient {
-    private static RDTLayer3_0 soketti = null;
+    private static RDTLayer3_1 soketti = null;
     private static int port = 6663;
 
     public static void main(String[] args) {
@@ -13,7 +13,8 @@ public class TestClient {
             port = Integer.parseInt(args[0]);
         }
         try {
-            soketti = new RDTLayer3_0();
+            // soketti = new RDTLayer3_0();
+            soketti = new RDTLayer3_1();
 
             Scanner input = new Scanner(System.in);
 

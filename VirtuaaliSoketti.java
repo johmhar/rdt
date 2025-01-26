@@ -19,8 +19,8 @@ public class VirtuaaliSoketti extends DatagramSocket {
     public VirtuaaliSoketti(int portti) throws SocketException {
         super(portti);
         p_drop = 0.0;
-        p_delay = 0.5;
-        p_err = 0.0;
+        p_delay = 0.0;
+        p_err = 0.8;
     }
 
     public void receive(DatagramPacket paketti) throws IOException {
